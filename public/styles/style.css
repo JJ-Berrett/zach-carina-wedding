@@ -1,0 +1,169 @@
+
+/*Browser Size*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.textCenter {
+    text-align: center
+}
+
+.portion {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.portion.one {
+    background-image: url('../images/1.jpg');
+}
+
+.portion.two {
+    background-image: url('../images/2.jpg');
+}
+.portion.three {
+    background-image: url('../images/3.jpg');
+    background-color: #2f4f90;
+}
+
+.portion.four {
+    padding-top: 10px;
+}
+
+.portion.four h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 3em;
+    padding: 2em 0;
+    margin: 0;
+    height: 1px;
+}
+
+.portion h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 3em;
+    padding: 6.5em 0;
+    margin: 0;
+    height: 1px;
+}
+
+.map {
+    text-decoration: underline;
+    text-color: #777;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info {
+    background: #FFFAF0;
+    color: #777;
+    padding: 3em 20%;
+}
+
+.button {
+    text-align: center;
+}
+
+.button a {
+    display: inline-block;
+    border: 2px solid #777;
+    padding: .75em 1.5em;
+    color: #FFFAF0;
+    background: #777;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: .10em;
+    word-spacing: .20em;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.button a:hover {
+    color: #777;
+    background: #FFFAF0;
+}
+
+footer.info {
+    color: #FFFAF0;
+    background: #777;
+    padding: 15px;
+    text-align: center;
+}
+
+.target {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+/*=======================*/
+/*====== iPhone =========*/
+/*=======================*/
+
+@media (min-width: 320px)
+and (max-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        font-size:12px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .portion.one {
+        background-image: url('../images/1-iphone.jpg');
+    }
+
+
+    .portion.two {
+        background-image: url('../images/2-iphone.jpg');
+    }
+
+    .portion.three {
+        background-image: url('../images/3-iphone.jpg');
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    .button a {
+        border: 4px solid #777;
+        padding: .75em 1.5em;
+        border-radius: 5px;
+        font-size: 15px;
+        letter-spacing: .250em;
+        word-spacing: .30em;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .target {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}

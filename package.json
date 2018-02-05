@@ -1,0 +1,12 @@
+{
+  "name": "zach-carina-wedding",
+  "version": "1.0.0",
+  "description": "Wedding site for Zach and Carina Arlt",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "JJ Berrett - jj.berrett.com",
+  "license": "ISC"
+}
